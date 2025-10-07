@@ -1,1 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomrulario</title>
+</head>
+<body style="background-color: black">
+  <style>
+    h1{color: crimson;
+    font-style: initial;
+  font-weight: 700; inline-size: 49 ;}
+    body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+    }  
+  p{
+                color: green;
+                font-family: Arial, sans-serif;
+               text-align: center;
+               font-size: larger;
+               font-weight: bold  ;
+            }
+  </style>
+  <h1>
+    Mi primer formulario
+  </h1>
+  <hr>
+
+  <br>
+
+ <p>Input de texto</p>
+  <form action="">
+      <label for="">tipo de texto</label>
+      <input type="text">
+      <br>
+      <br>
+       <label for="">Busqueda</label>
+      <input type="search">
+      <br>
+      <br>
+     <label for="URL">URL</label>
+      <input type="url" name="URL" id="URL">
+      <br>
+    <br>
+      <label for="Correo electronico">Email</label>
+      <input type="email"  id="campo-correo-electronico">
+      <br>
+
+      <label for="campo de texto">Campo de texto</label>
+      <br>
+      <textarea name="Campo de texto" id="Campo de texto"></textarea>
+<br>
+     
+
+<label for="">contraseña</label>
+<input type="password">
+<br>
+
+ <label for="Telefono">Telefono</label>
+      <input type="number" id="campo-telefono">
+      <br>
+<p>input de numero</p>
+<label for="">Tipo de numerico</label>
+<input type="number"> 
+<br>
+<br>
+<label for="">Rango</label>
+<input type="range">
+<br>
+<br>
+
+      <!-- fecha y hora -->
+      <label for="">Fecha y hora</label>
+      <input type="datetime-local">
+<br>
+
+      <label for="fecha">Fecha</label>
+      <input type="date" id="fecha" >
+      <br>
+
+      <label for="hora">Hora</label>
+      <input type="time" id="hora">
+      <br>
+
+      <label for="mes">Mes</label>
+      <input type="month" id="mes">
+      <br>
+
+      <label for="semana">Semana</label>
+      <input type="week" id="semana" >
+      <br>
+      <br>
+
+      <p>Seleccion</p>
+      <!-- selección -->
+      <label for="colores">COLOR</label>
+      <input type="color">
+      <br>
+      
+      <label for="checkbox">CHECKBOX</label>
+      <input type="checkbox">
+<br>
+     <label for="">Select-option</label>
+     <select name="" id="">
+<option value="1">Opcion 1</option>
+<option value="2">Opcion 2</option>
+<option value="3">Opcion 3</option>
+     </select>
+      </select>
+      <br>
+      <br>
+<select multiple>
+<option value="">Elemento 1</option>
+<option value="">Elemento 2</option>
+<option value="">Elemento 3</option>
+</select>
+        <br>
+        <br>
+    <label for="">datalist</label>
+    <input type="text" list="items">
+    <datalist id="items">
+        <option value="1">opcion 1</option>
+        <option value="2">opcion 2</option>
+        <option value="3"> opcion 3</option>
+ </datalist>
+<br>
+<label for="">Radio button</label>
+<input type="radio">
+      <br>
+
+      <!--  archivo -->
+      <label for="archivo">Selecciona un archivo</label>
+      <input type="file" id="archivo" >
+      <br>
+      <br>
+
+<!--Barra de progreso-->
+<progress max="100" value="100"> Barra de progreso</progress>
+<br>
+      <!-- Boton -->
+      <input type="submit" value="Enviar formulario">
+      <input type="reset" value="Borrar formulario">
+      <br>
+      <br>
+    <label for="">Imagen</label>
+    <input type="image" src="">
+    <br>
+    <label for="">Borrar formulario</label>
+    <input type="reset">
+    <br>
+    <label for="">Boton sin funcionalidad</label>
+    <input type="button" value="Input Boton">
+    <button>Boton simple</button>
+    <br>
+    <br>
+   <!--VALIDACIONES-->
+         <input type="text" required placeholder="Campo obligatorio">
+      <br>
+      <input type="text" readonly value="Solo lectura">
+      <br>
+      <input type="number" min="5" max="20" placeholder="5 al 20">
+      <br>
+      <input type="password" placeholder="Contraseña" minlength="5" maxlength="8">
+      <br>
+      <input type="text" pattern="[A-Z]{2}[0-9]{3}" placeholder="Patrón: AA123">
+      <br>
+      <br>
+
+  </form>
+</body>
+</html>
 
